@@ -1,19 +1,24 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-/* main method */
+/* Main Method */
 int main(int args, char** argv){
+	
+	// Read in the Size of the Array.
 	int N, i;
 	printf("Please enter number of elements in array: ");
 	scanf("%d", &N);
 
+	// Statically Allocate Memory for the Array.
 	float arr[N];
 
+	// Read in Each Element of the Array
 	for (i=0; i<N; i++){
 	  printf("Please enter element %d of array: ", (i+1));
 	  scanf("%f", &arr[i]);
 	}
 
+	// Print the Unsorted Array
 	printf("Given array is: ");
 	printf("[");
 	for (i=0; i < N-1; i++){
@@ -21,6 +26,7 @@ int main(int args, char** argv){
 	}
 	printf("%f]\n", arr[N-1]);
 
+	// Insertion Sort Algorithm
 	float temp;
 	int currLoc;
 	for (i=1; i < N; i++){
@@ -33,6 +39,7 @@ int main(int args, char** argv){
 		}
 	}
 
+	// Print the Sorted Array
 	printf("Sorted array is: ");
 	printf("[");
 	for (i=0; i < N-1; i++){
