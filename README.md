@@ -14,6 +14,8 @@ Date: ____________
 
 Modify your Lab-02 solution (or the provided one) to sort an array of strings and use dynamic memory allocation.
 
+https://github.com/UAB-CS-332-532/Lab-03/blob/165e1b456dcf37a2911626d6ef25d7658daf9c0c/InsertionSort.c
+
 1. Dynamically allocate memory for the array based on the number of strings in the array.
 
 2. For each string, dynamically allocate memory based on the size of the string.
