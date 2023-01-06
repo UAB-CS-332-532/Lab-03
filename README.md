@@ -22,6 +22,8 @@ https://github.com/UAB-CS-332-532/Lab-03/blob/165e1b456dcf37a2911626d6ef25d7658d
 
 3. Use the *scanf()* to read in each string.
 
-4. Create a function to read in the strings, a function to sort the strings, and a function to display the strings.
+4. Create a function to read in the strings (e.g. readStrings), a function to sort the strings (e.g. sortStrings), and a function to display the strings (e.g. displayStrings).
 
-Useful functions: malloc()and strlen() (More found at https://en.cppreference.com/w/c/string/byte)
+You can utilize the malloc() function to dynamically allocate memory and strlen() to find the length of a string.
+
+(More string functions can be found at https://en.cppreference.com/w/c/string/byte)
